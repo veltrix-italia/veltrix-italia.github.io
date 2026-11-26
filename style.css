@@ -68,7 +68,7 @@ h1 em{font-style:normal;color:#aeb8ff;background:linear-gradient(100deg,#b8caff,
 .card ul{padding-left:1.18rem;margin:1.1rem 0 1.35rem;color:var(--muted);flex:1}
 .card li+li{margin-top:.27rem}
 .card .price{margin-bottom:.9rem;color:var(--text);font-weight:650}
-.billing{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;margin-top:1.8rem}
+.billing{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:1.8rem}
 .billing dt{font-weight:700}
 .billing dd{margin:0}
 .examples{margin-top:1.5rem;border-top:1px solid var(--line)}
@@ -199,7 +199,7 @@ input:focus,select:focus,textarea:focus{border-color:#36bff2;box-shadow:0 0 0 4p
 .steps li{border-top-color:#345a85}.steps li::before{color:#55d6ff}
 .faqs details{background:linear-gradient(90deg,#09111e9e,transparent);padding-inline:.65rem}.faqs summary{font-size:1.02rem}
 .footer{background:#020409;border-color:#18243d}.footer-grid{padding-top:.5rem}
-@media(max-width:910px){.hero-grid{min-height:auto;grid-template-columns:1fr;padding-block:5rem}.brand-stage{min-height:450px;max-width:660px;width:100%;margin-inline:auto}.top nav{padding:.25rem}.signal-one{left:2%}.signal-two{right:2%}}
+@media(max-width:910px){.hero-grid{min-height:auto;grid-template-columns:1fr;padding-block:5rem}.brand-stage{min-height:450px;max-width:660px;width:100%;margin-inline:auto}.top nav{padding:.25rem}.signal-one{left:2%}.signal-two{right:2%}.billing{grid-template-columns:1fr}}
 @media(max-width:700px){.bar{min-height:68px}.top nav{background:#070d19f7;border:0;border-bottom:1px solid #26395d;border-radius:0;padding:1rem}.hero-grid{padding-block:3.8rem;gap:3rem}.hero-logo{width:130%}.brand-stage{min-height:360px;border-radius:25px}.signal-card{padding:.55rem .65rem}.signal-one{top:9%;left:-2%}.signal-two{right:-2%;bottom:12%}.hero-points{gap:.5rem 1rem}}
 @media(max-width:420px){.brand-stage{min-height:285px}.signal-card{font-size:.74rem}.signal-card>span{width:27px;height:27px}.brand-stage figcaption{font-size:.58rem;letter-spacing:.16em}.hero-logo{width:138%}}
 
