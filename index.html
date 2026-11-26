@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Veltrix sviluppa automazioni AI per le aziende italiane. Scopri l’assistente email e prova una simulazione gratuita.">
+<meta name="theme-color" content="#090c16">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Veltrix | Automazioni AI per aziende">
+<meta property="og:description" content="Meno lavoro ripetitivo. Più tempo per il tuo business. Prova la simulazione dell’assistente email.">
+<title>Veltrix | Automazioni AI per aziende</title>
+<link rel="icon" href="v.svg?v=3" type="image/svg+xml">
+<link rel="stylesheet" href="style.css?v=3">
+<script defer src="config.js?v=3"></script>
+<script defer src="app.js?v=3"></script>
+</head>
+<body>
+<a class="skip" href="#main">Vai al contenuto</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="#home"><img src="v.svg" alt="" width="30" height="30">VELTRIX</a>
+<button class="menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Principale"><a href="#soluzioni">Soluzioni</a><a href="#demo">Demo</a><a href="#metodo">Metodo</a><a href="#faq">FAQ</a><a class="mobile-contact" href="#contatti">Contatti</a></nav>
+<a class="button small outline header-cta" href="#contatti">Parliamone</a>
+</div></header>
+<main id="main">
+<section class="hero" id="home"><div class="wrap hero-grid">
+<div>
+<p class="eyebrow"><span></span> Automazioni AI per aziende</p>
+<h1>Il futuro della tua azienda, <em>automatizzato.</em></h1>
+<p class="lead">Veltrix sviluppa automazioni intelligenti che aiutano le aziende a risparmiare tempo, migliorare la gestione dei clienti e semplificare il lavoro quotidiano.</p>
+<div class="actions"><a class="button" href="#contatti">Richiedi una demo gratuita</a><a class="button outline" href="#soluzioni">Scopri le nostre soluzioni</a></div>
+</div>
+<figure class="workflow">
+<figcaption><span>Flusso di esempio</span><span>Assistente email</span></figcaption>
+<div class="flow-body">
+<div class="flow-item"><span class="flow-icon" aria-hidden="true">✉</span><div><strong>Richiesta in arrivo</strong><small>«Quali corsi offrite?»</small></div></div>
+<div class="connector" aria-hidden="true"></div>
+<div class="flow-item active"><span class="flow-icon" aria-hidden="true">✦</span><div><strong>Analisi della richiesta</strong><small>Informazioni aziendali approvate</small></div></div>
+<div class="connector" aria-hidden="true"></div>
+<div class="flow-item"><span class="flow-icon" aria-hidden="true">✓</span><div><strong>Bozza di risposta</strong><small>Pronta per la revisione</small></div></div>
+</div>
+<div class="flow-footer"><span>Simulazione con dati fittizi</span><a href="#demo">Prova con una richiesta</a></div>
+</figure>
+</div></section>
+<div class="audiences"><div class="wrap"><span>Per le attività</span><ul><li>Palestre</li><li>Immobiliare</li><li>Concessionarie</li><li>Centri estetici</li><li>PMI</li></ul></div></div>
+<section class="section wrap split" id="problemi">
+<div><p class="eyebrow">Il lavoro quotidiano</p><h2>Meno lavoro ripetitivo.<br>Più tempo per il tuo business.</h2></div>
+<ul class="issues"><li>Troppe email da gestire</li><li>Domande ripetitive dei clienti</li><li>Tempo perso in attività amministrative</li><li>Richieste commerciali gestite in ritardo</li><li>Conversazioni sparse su più canali</li></ul>
+</section>
+<section class="section band" id="soluzioni"><div class="wrap">
+<p class="eyebrow">Soluzioni e prezzi</p><h2>Parti dalle email.</h2>
+<p class="intro">Con Base puoi già provare l’assistente email. Plus e Pro sono in fase di sviluppo.</p>
+<div class="cards" id="plans"></div>
+<noscript><p>Attiva JavaScript per visualizzare le schede delle soluzioni e provare la demo.</p></noscript>
+<dl class="billing"><div><dt>Configurazione iniziale</dt><dd>Una tantum per analisi, personalizzazione, configurazione e test.</dd></div><div><dt>Canone mensile</dt><dd>Può comprendere hosting, utilizzo delle API, monitoraggio, manutenzione, aggiornamenti e assistenza entro i limiti definiti nel contratto.</dd></div></dl>
+<details class="examples">
+<summary>Esempi di richieste per settore</summary>
+<dl><div><dt>Palestre</dt><dd>Orari dei corsi e modalità per prenotare una prova.</dd></div><div><dt>Agenzie immobiliari</dt><dd>Documenti da portare e informazioni prima di una visita.</dd></div><div><dt>Concessionarie</dt><dd>Orari dello showroom e indicazioni per richiedere un test drive.</dd></div><div><dt>Centri estetici</dt><dd>Durata dei trattamenti e indicazioni prima dell’appuntamento.</dd></div><div><dt>PMI</dt><dd>Informazioni su servizi, orari e richieste di preventivo.</dd></div></dl>
+</details>
+</div></section>
+<section class="section wrap" id="demo">
+<p class="eyebrow">Demo interattiva</p><h2>Prova l’assistente email.</h2>
+<p class="intro" id="demo-note">Simulazione con risposte predefinite e dati fittizi di una palestra. Usa richieste di esempio prive di dati personali. Il testo resta nel tuo browser.</p>
+<div class="demo glass">
+<form id="demo-form">
+<label for="request">Richiesta del cliente</label>
+<textarea id="request" rows="5" maxlength="900" required aria-describedby="demo-note" placeholder="Scrivi una richiesta di esempio…"></textarea>
+<div class="samples" role="group" aria-label="Richieste di esempio">
+<button type="button">Quali sono gli orari?</button><button type="button">Che corsi offrite?</button><button type="button">Posso fare una prova?</button><button type="button">Quanto costa l’abbonamento?</button>
+</div>
+<button class="button" type="submit">Genera una risposta</button>
+</form>
+<div class="reply"><h3>Bozza di risposta</h3><p id="answer" role="status">La risposta comparirà qui dopo aver inviato una richiesta di esempio.</p><button id="copy-answer" class="button small outline" type="button" hidden>Copia la risposta</button><p id="copy-status" role="status"></p></div>
+</div>
+</section>
+<section class="section band" id="metodo"><div class="wrap">
+<p class="eyebrow">Il metodo</p><h2>Come lavoriamo.</h2>
+<ol class="steps"><li><h3>Analisi</h3><p>Analizziamo le esigenze della tua azienda e le richieste che ricevi più spesso.</p></li><li><h3>Progettazione</h3><p>Definiamo la soluzione e le informazioni che l’assistente può usare.</p></li><li><h3>Configurazione e test</h3><p>Configuriamo il sistema e verifichiamo le risposte su casi rappresentativi.</p></li><li><h3>Assistenza</h3><p>Forniamo assistenza e manutenzione secondo gli accordi del progetto.</p></li></ol>
+</div></section>
+<section class="section wrap split about" id="chi-siamo">
+<div><p class="eyebrow">Chi siamo</p><h2>Automazioni costruite attorno al tuo lavoro.</h2></div>
+<div><p>Veltrix è un giovane progetto imprenditoriale specializzato nello sviluppo di automazioni AI per le aziende italiane.</p><p>Partiamo dalle attività che occupano più tempo al tuo team. Concordiamo quali informazioni usare, come gestire i casi dubbi e dove mantenere la revisione umana. Condividiamo fin dall’inizio disponibilità, costi e limiti della soluzione.</p></div>
+</section>
+<section class="section band" id="faq"><div class="wrap split">
+<div><p class="eyebrow">FAQ</p><h2>Domande frequenti.</h2></div>
+<div class="faqs">
+<details><summary>Come funzionano le automazioni?</summary><p>L’assistente analizza le richieste email e prepara risposte usando le informazioni approvate dall’azienda. Il flusso può prevedere la revisione di una persona.</p></details>
+<details><summary>Che cosa copre il costo iniziale?</summary><p>Copre la progettazione, la configurazione, la personalizzazione e i test prima dell’avvio. L’importo dipende dalle esigenze concordate.</p></details>
+<details><summary>Che cosa comprende il canone mensile?</summary><p>Può coprire hosting, API, monitoraggio, manutenzione, aggiornamenti e assistenza nei limiti concordati.</p></details>
+<details><summary>Posso personalizzare l’assistente?</summary><p>Sì. Concordiamo il tono, le informazioni di riferimento e le regole per gestire le richieste che richiedono un intervento umano.</p></details>
+<details><summary>Come gestite sicurezza e privacy?</summary><p>In fase di progetto definiamo accessi, dati necessari, fornitori coinvolti e tempi di conservazione. La simulazione online usa dati fittizi ed elabora il testo nel browser.</p></details>
+<details><summary>Posso controllare le risposte prima dell’invio?</summary><p>Sì. Possiamo configurare un flusso in cui l’assistente prepara una bozza da verificare e approvare manualmente.</p></details>
+<details><summary>È prevista assistenza tecnica?</summary><p>Sì. Canali, orari e attività comprese vengono definiti nell’accordo di assistenza.</p></details>
+<details><summary>La demo è gratuita?</summary><p>Sì. La simulazione è disponibile direttamente sul sito e puoi provarla senza creare un account. Per una demo dedicata, usa la sezione Contatti quando sarà attiva.</p></details>
+</div>
+</div></section>
+<section class="section wrap split" id="contatti">
+<div><p class="eyebrow">Contatti</p><h2>Parliamo della tua azienda.</h2><p class="intro">Raccontaci quale attività vorresti semplificare e indica se preferisci una demo o un preventivo.</p><p id="contact-email" hidden></p></div>
+<form id="contact-form" class="glass contact">
+<p id="contact-note">Compila i campi per preparare un’email indirizzata a Veltrix.</p>
+<fieldset id="contact-fields" disabled aria-describedby="contact-note">
+<div class="form-grid">
+<label>Nome<input name="name" autocomplete="name" maxlength="100" required></label>
+<label>Nome azienda<input name="company" autocomplete="organization" maxlength="160" required></label>
+<label>Email<input type="email" name="email" autocomplete="email" maxlength="254" required></label>
+<label>Settore<select name="sector" required><option value="">Seleziona</option><option>Palestra</option><option>Immobiliare</option><option>Concessionaria</option><option>Centro estetico</option><option>Altra attività</option></select></label>
+</div>
+<label>Servizio di interesse<select name="service" required><option value="">Seleziona</option><option value="base">Base · demo disponibile</option><option value="plus">Plus · in sviluppo</option><option value="pro">Pro · in sviluppo</option><option value="altro">Da definire</option></select></label>
+<label>Messaggio<textarea name="message" rows="4" maxlength="2500" required></textarea></label>
+<button id="contact-submit" class="button" type="submit">Prepara l’email</button>
+</fieldset>
+<p id="contact-status" role="status"></p>
+</form>
+</section>
+</main>
+<footer class="footer"><div class="wrap">
+<div class="footer-grid"><div><a class="brand" href="#home"><img src="v.svg" alt="" width="30" height="30">VELTRIX</a><p>Automazioni AI per aziende.</p></div>
+<nav aria-label="Footer"><a href="#soluzioni">Soluzioni</a><a href="#demo">Demo</a><a href="#chi-siamo">Chi siamo</a><a href="#contatti">Contatti</a></nav>
+<div class="legal" id="legal" aria-label="Documenti legali"></div></div>
+<div class="copyright">© Veltrix</div>
+</div></footer>
+</body>
+</html>
+
