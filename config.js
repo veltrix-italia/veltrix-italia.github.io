@@ -5,10 +5,11 @@ const plans = [
     status: "Demo disponibile",
     features: [
       "Assistente AI per le email",
-      "Analisi delle richieste",
-      "Risposte basate su informazioni approvate",
-      "Personalizzazione",
-      "Manutenzione e assistenza"
+      "Risposte basate sui contenuti approvati",
+      "Riconoscimento delle richieste frequenti",
+      "Raccolta e classificazione dei contatti",
+      "Bozze controllabili prima dell’invio",
+      "Monitoraggio e assistenza ordinaria"
     ]
   },
   {
@@ -16,10 +17,13 @@ const plans = [
     name: "Plus",
     status: "In fase di sviluppo",
     features: [
-      "Funzionalità di Base",
-      "Integrazione Instagram",
-      "Gestione multicanale",
-      "Classificazione dei potenziali clienti"
+      "Tutto ciò che include Base",
+      "Integrazione con Instagram",
+      "Chatbot intelligente per il sito",
+      "Richieste di appuntamento automatizzate",
+      "Sincronizzazione con Google Sheets o CRM",
+      "Statistiche e report sulle richieste",
+      "Assistenza prioritaria"
     ]
   },
   {
@@ -27,17 +31,25 @@ const plans = [
     name: "Pro",
     status: "In fase di sviluppo",
     features: [
-      "Funzionalità di Plus",
+      "Tutto ciò che include Plus",
       "Assistente telefonico AI",
-      "Automazioni avanzate",
-      "Integrazioni personalizzate"
+      "Gestione coordinata di email, chat e chiamate",
+      "Automazioni avanzate tra più strumenti",
+      "Integrazione con calendario e CRM",
+      "Promemoria e follow-up automatici",
+      "Flussi e integrazioni personalizzati",
+      "Monitoraggio avanzato e supporto prioritario"
     ]
   }
 ];
 
 const prices = {
   quoteLabel: "Richiedi un preventivo personalizzato",
-  approved: null
+  approved: {
+    base: { setup: 250, monthly: 50 },
+    plus: { setup: 399, monthly: 100 },
+    pro: { setup: 699, monthly: 200 }
+  }
 };
 
 const contact = {
