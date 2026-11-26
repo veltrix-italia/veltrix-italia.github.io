@@ -18,7 +18,7 @@ for (const plan of plans) {
 
   const approved = prices.approved?.[plan.id];
   const price = approved
-    ? euro.format(approved.setup) + " di configurazione + " + euro.format(approved.monthly) + "/mese"
+    ? euro.format(approved.setup) + " attivazione + " + euro.format(approved.monthly) + "/mese"
     : prices.quoteLabel;
   const action = element("a", plan.id === "base" ? "Prova la demo" : "Parliamone", "button outline");
   action.href = plan.id === "base" ? "#demo" : "#contatti";
